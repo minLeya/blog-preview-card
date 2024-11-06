@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'Figtree-ExtraBold';
+    src: url(assets/fonts/static/Figtree-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: 'Figtree-SemiBold';
+    src: url(assets/fonts/static/Figtree-SemiBold.ttf);
+}
+
+html {
+    background-color: hsl(47, 88%, 63%);
+}
+
+
+.card {
+    width: 384px;
+    height: 522px;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.category {
+    width: 80px;
+    height: 20px;/*  //30 */
+    background-color: hsl(47, 88%, 63%);
+    border-radius: 3px;
+    text-align: center;
+/*     font-family: 'Figtree-ExtraBold'; */ /* doesnt work */
+
+
+}
