@@ -23,11 +23,17 @@ html {
     color: hsl(0, 0%, 7%);
 }
 
+.main {
+    height: 100vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 100px;
     max-width: 1440px;
 }
 
@@ -136,9 +142,6 @@ html {
 /* mobile ver */
 @media (max-width: 375px) {
 
-    .container {
-        margin-top: 154px;
-    }
     .card {
         width: 327px;
         height: 501px;
